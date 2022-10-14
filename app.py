@@ -15,7 +15,7 @@ st.title('Bienvenue dans votre application.')
 
 '#### Observe the full dataset.'
 
-data = pd.read_csv('data/concrete_data.csv')
+data = pd.read_csv('concrete_data.csv')
 
 col1, col2, col3, col4 = st.columns([7,1,2,2])
 col1.dataframe(data, use_container_width = True)
